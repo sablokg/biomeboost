@@ -1,0 +1,16 @@
+[package]
+name = "biomeboost"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+bhtsne = "0.7.12"
+clap = { version = "4.6.4", features = ["derive"] }
+csv = "1.4.0"
+kuva = { version = "0.4.0", features = ["full"] }
+rayon = "1.12.0"
+smartcore = "0.5.3"
+smelt-ml = "3.2.0"
+tokio = { version = "1.53.1", features = ["full"] }
+vornix-banner = "0.0.1"
+xgb = "3.0.5"
